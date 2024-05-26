@@ -32,4 +32,4 @@ for x in average_hue:
 
 for x in range(height):
     for y in range(width):
-        print(result[x * y], end="")
+        print(result[x * y + width], end="")
